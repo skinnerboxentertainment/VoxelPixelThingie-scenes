@@ -45,3 +45,13 @@ served by this repository's GitHub Pages at
 `scenes/reference-8/did.json`). Signed pack on IPFS:
 `bafybeihvkvcr7f2oidvs54fvtulqdkxsru3uruqwbpmggnuy3hcddangju`.
 Verify with `npm run scene:check` in the main repository.
+
+## Reader
+
+Each scene folder also holds `reader.html`: one file carrying a reader
+page, the packed scene (gzipped), the SPEC text, and the container's DID
+document. Open it from disk with the network off and it lists the bits,
+shows any bit's passport and history, and verifies the seal and the
+signature against the document it carries. Served from this repository's
+Pages site:
+https://skinnerboxentertainment.github.io/VoxelPixelThingie-scenes/scenes/reference-8/reader.html
