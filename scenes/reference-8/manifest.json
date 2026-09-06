@@ -2574,6 +2574,20 @@
     "keyId": "0c32ad5cdc857008",
     "alg": "EdDSA",
     "value": "0bNtqMtPydBID8885ClvApdLnMH2udEM-ijhRdT2ja17IV4c24eif5-PGk6mCHTq8opd7YU3ga-XgdZ-5nqMBA",
-    "signed": 1788715411221
+    "signed": 1788731074289,
+    "witness": [
+      {
+        "kind": "vpb-notary/1",
+        "witness": "notary:96299f3a3aabd2e6",
+        "digest": "48847f8a934a2f6aeff2b22c3e48e80435d4f6f99466196c316faa9320c63487",
+        "proof": "rWZM1Z671NvQdgNHPick8E03UpZvYML8JjHQ7bSe4-d0duGtbYvXCi6Wk7hdziVg4o6akLagV74cIt4s7sJFAA",
+        "time": 1788731074290,
+        "key": {
+          "kty": "OKP",
+          "crv": "Ed25519",
+          "x": "xfuAVjvkVurRI8rvf8C_h8FubrU5E_VHnTvOBHYEuAI"
+        }
+      }
+    ]
   }
 }
