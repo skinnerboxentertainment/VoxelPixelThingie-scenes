@@ -2568,5 +2568,12 @@
       "passport": "fa134d6fe82c73595552a90969a074b605062ddede33aa87663eff755b0acdae",
       "events": "ff99700aef9797ac7334b3d7e87052c81a77ea69c71a1c71cffe48e86fa87f98"
     }
+  },
+  "signature": {
+    "did": "did:web:skinnerboxentertainment.github.io:VoxelPixelThingie-scenes:scenes:reference-8:frame:01a0746b-4c1e-70d7-860f-4911b12a768a",
+    "keyId": "0c32ad5cdc857008",
+    "alg": "EdDSA",
+    "value": "0bNtqMtPydBID8885ClvApdLnMH2udEM-ijhRdT2ja17IV4c24eif5-PGk6mCHTq8opd7YU3ga-XgdZ-5nqMBA",
+    "signed": 1788715411221
   }
 }

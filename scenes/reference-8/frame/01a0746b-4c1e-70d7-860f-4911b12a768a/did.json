@@ -1,0 +1,36 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:skinnerboxentertainment.github.io:VoxelPixelThingie-scenes:scenes:reference-8:frame:01a0746b-4c1e-70d7-860f-4911b12a768a",
+  "verificationMethod": [
+    {
+      "id": "did:web:skinnerboxentertainment.github.io:VoxelPixelThingie-scenes:scenes:reference-8:frame:01a0746b-4c1e-70d7-860f-4911b12a768a#0c32ad5cdc857008",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:skinnerboxentertainment.github.io:VoxelPixelThingie-scenes:scenes:reference-8:frame:01a0746b-4c1e-70d7-860f-4911b12a768a",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "iYGlr5u6qQkMbQ8Wk0KJ3zgfNYfRqfjPk_IZAJ4k6cU",
+        "alg": "EdDSA",
+        "kid": "0c32ad5cdc857008"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:skinnerboxentertainment.github.io:VoxelPixelThingie-scenes:scenes:reference-8:frame:01a0746b-4c1e-70d7-860f-4911b12a768a#0c32ad5cdc857008"
+  ],
+  "service": [
+    {
+      "id": "did:web:skinnerboxentertainment.github.io:VoxelPixelThingie-scenes:scenes:reference-8:frame:01a0746b-4c1e-70d7-860f-4911b12a768a#scene",
+      "type": "VpbScene",
+      "serviceEndpoint": "https://raw.githubusercontent.com/skinnerboxentertainment/VoxelPixelThingie-scenes/main/scenes/reference-8/manifest.json"
+    },
+    {
+      "id": "did:web:skinnerboxentertainment.github.io:VoxelPixelThingie-scenes:scenes:reference-8:frame:01a0746b-4c1e-70d7-860f-4911b12a768a#passport",
+      "type": "VpbPassportPage",
+      "serviceEndpoint": "https://skinnerboxentertainment.github.io/VoxelPixelThingie/passport/"
+    }
+  ]
+}

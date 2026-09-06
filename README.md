@@ -34,3 +34,14 @@ Check it yourself from a VoxelPixelThingie checkout:
 ```
 npm run scene:check -- <local folder or pack.json> https://raw.githubusercontent.com/skinnerboxentertainment/VoxelPixelThingie-scenes/main/scenes/reference-8/ pack:https://gateway.pinata.cloud/ipfs/bafybeibbu7hdh6jmuovoonsppyhjzni74av6koqkq2wjemqtgjvphkwi6m
 ```
+
+## Signed seal and DID (2026-09-06)
+
+`scenes/reference-8/manifest.json` carries an Ed25519 signature over its
+seal. The container's DID is
+`did:web:skinnerboxentertainment.github.io:VoxelPixelThingie-scenes:scenes:reference-8:frame:01a0746b-4c1e-70d7-860f-4911b12a768a`,
+served by this repository's GitHub Pages at
+`scenes/reference-8/frame/<container id>/did.json` (a copy sits at
+`scenes/reference-8/did.json`). Signed pack on IPFS:
+`bafybeihvkvcr7f2oidvs54fvtulqdkxsru3uruqwbpmggnuy3hcddangju`.
+Verify with `npm run scene:check` in the main repository.
